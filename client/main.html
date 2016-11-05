@@ -1,0 +1,46 @@
+<head>
+  <title>P1M1</title>
+</head>
+
+<body>
+  {{> hello}}
+  <br><br>
+  {{> challenge}}
+  <br>
+  <br>
+  <br>
+  {{>info}}
+</body>
+
+<template name="hello">
+	<div class="main">
+		<h1><span>PLUS 1 MINUS 1</span><br>how am i doing?</h1>
+		<button id="sub">-</button>
+		<div id="counter">{{counter}}</div>
+		<button id="add">+</button>
+	</div>
+</template>
+
+<template name="challenge">
+	<div id="challenge">
+		<b>GOALS</b><br><br>
+		<b>Start Small:</b> Reach <b>25 Points</b> in <b>7 days</b>. <a href="#">DARE?</a>
+	</div>
+</template>
+
+<template name="info">
+	<div id="info">
+		<h2>How to Play?</h2>
+		<p>A1M1 is all about you. This will give you instant feedback about what have you done and have are you doing. Set yourself a floor value and try to don't fall below it. Never go below 0. Stay at positive</p>
+		<br>
+
+		<p>If you did something good <b>press +</b></p>
+		<p>If you did something bad <b>press -</b></p>
+		<br>
+
+		<p>Doesn't matter if you had do it, didn't have any other choice.</p>
+		<br><br>
+
+		2016
+	</div>
+</template>
