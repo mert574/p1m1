@@ -4,7 +4,7 @@ Plus 1 Minus 1: A simple self scoring system created in meteor.js to practice me
 
 
 ## What is P1M1?
-A1M1 is all about you. This will give you instant feedback about what have you done and have are you doing. 
+P1M1 is all about you. It will give you instant feedback about what have you done and have are you doing. 
 
   * If you have done something good **press +**
 
